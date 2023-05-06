@@ -1,18 +1,20 @@
-$color-primary: rgb(0, 195, 255);
+$color-teal: #17A2B8;
+$color-primary: rgb(33, 216, 210);
 $color-secondary: rgb(255, 111, 2);
 $color-pale: #CEC8FF;
-$color-mid: rgb(23, 128, 125);
+$color-mid: rgb(72, 189, 243);
 $color-dark: #60106b;
 $color-black-transparent: rgba(0, 0, 0, 0.5);
-$background-color:#FFF7EB;
-$btn-dark:#343a40;
-$btn-dark-hover:rgb(0, 195, 255);
-$btn-dark-hover-border:rgb(0, 195, 255);
-$btn-primary-hover:rgb(182, 82, 207);
-$btn-primary-background:#007bff;
+$background-color: #FFF7EB;
+$btn-dark: #343a40;
+$btn-dark-hover: rgb(0, 195, 255);
+$btn-dark-hover-border: rgb(0, 195, 255);
+$btn-primary-hover: rgb(182, 82, 207);
+$btn-primary-background: #007bff;
 
 $body-font: "Open Sans", sans-serif;
 $header-font: "Lobster", cursive;
+
 
 
 
@@ -33,7 +35,7 @@ h2 {
 
 
 header {
-    h2{
+    h2 {
         color: $color-primary;
     }
 }
@@ -52,8 +54,8 @@ header {
     color: $color-pale;
     background-image: url('https://get.dishformyrv.com/hubfs/1-learn-more/learn-more-images/Camping-header.jpg');
     /*background-position:;*/
-    background-repeat: no-repeat; 
-    background-size:cover;
+    background-repeat: no-repeat;
+    background-size: cover;
     /*background-blend-mode:normal;*/
 }
 
@@ -64,7 +66,7 @@ header {
 }
 
 .navbar {
-    background-color: color-mid;
+    background-color: $color-mid;
 }
 
 a,
@@ -92,7 +94,7 @@ a:hover {
     color: $color-pale;
     background-color: $btn-dark;
     border-color: $btn-dark;
-    border-color:$color-pale;
+    border-color: $color-pale;
 }
 
 .btn-dark:hover {
@@ -114,3 +116,15 @@ a:hover {
     border-color: $btn-dark-hover-border;
 }
 
+#reserveModal{
+    .modal-header {
+        background-color: $color-teal;
+        color: white;
+    }
+}
+#loginModal{
+    .modal-header {
+        background-color: $color-mid;
+        color: white;
+    }
+}

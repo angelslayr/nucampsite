@@ -8,10 +8,10 @@ h3 {
   font-family: "Lobster", cursive; }
 
 h2 {
-  color: #00c3ff; }
+  color: #21d8d2; }
 
 header h2 {
-  color: #00c3ff; }
+  color: #21d8d2; }
 
 .site-footer {
   background-image: linear-gradient(color-mid, #CEC8FF);
@@ -35,7 +35,7 @@ header h2 {
   min-height: 200px; }
 
 .navbar {
-  background-color: color-mid; }
+  background-color: #48bdf3; }
 
 a,
 a:hover {
@@ -74,3 +74,11 @@ a:hover {
   color: #CEC8FF;
   background-color: #b652cf;
   border-color: #00c3ff; }
+
+#reserveModal .modal-header {
+  background-color: #17A2B8;
+  color: white; }
+
+#loginModal .modal-header {
+  background-color: #48bdf3;
+  color: white; }
